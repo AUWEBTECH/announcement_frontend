@@ -1,2 +1,2 @@
 # duyuru_sistemi_frontend
-Vuejs kullanılan bir frontend tasarımıdır.
+React kullanılan bir frontend tasarımıdır.
