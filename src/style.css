@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to right, #00ff7e , #00f3ff);
+}
+
+.w50{
+    width: 50%;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+
+.sign .container{
+    padding: 100px;
+
+}
+.ui.grid{
+    margin: 0;
+}
+.generalGrid{
+    margin: 0 !important;
+    padding: 90px !important;
+    border: 3px solid white;
+}
+
+h2.ui.center.aligned.header.headerSign{
+    font-size: -webkit-xxx-large;
+    color: #17084a;
+
+}
+
+.ui.input input{
+    text-align: center;
+}
+
+.sign .ui.checkbox label, .ui.checkbox+label{
+    color: #805252;
+    transition: color .1s ease;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.lostPassword{
+    float: right;
+    font-size: 18px;
+}
+
+.loginButton{
+    margin-top: 3em !important;
+}
+
+.loginButton .ui.blue.button{
+    width: 50%;
+    height: 4em;
+    font-size: 20px;
+}
