@@ -18,8 +18,8 @@ class Sign extends Component{
                                     <Input icon='eye' className="w50" iconPosition='left' placeholder='Your Password' type="password"/>
                                 </Grid.Column>
                         </Grid.Column>
-                            <Grid.Column floated='left' width={8}>
-                                <Checkbox label='REMEMBER ME' />
+                            <Grid.Column floated='right' width={8}>
+                                <Checkbox label='Remember Me' />
                             </Grid.Column>
                             <Grid.Column width={8}>
                                 <a href="#" className="lostPassword">Lost Your Password?</a>

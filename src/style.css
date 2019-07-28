@@ -21,7 +21,7 @@ body{
 .generalGrid{
     margin: 0 !important;
     padding: 90px !important;
-    border: 3px solid white;
+    border: 0px solid white;
 }
 
 h2.ui.center.aligned.header.headerSign{
@@ -34,24 +34,41 @@ h2.ui.center.aligned.header.headerSign{
     text-align: center;
 }
 
-.sign .ui.checkbox label, .ui.checkbox+label{
-    color: #805252;
+.sign {
+    color: #0288d1;
     transition: color .1s ease;
-    font-weight: bold;
-    font-size: 15px;
+    /*font-weight: bold;*/
+    font-size: 14px;
+    
+}
+.ui.checkbox {
+    color: #0288d1;
+    transition: color .1s ease;
+    /*font-weight: bold;*/
+    font-size: 14px;
+    padding-left: 52%
+}
+.ui.checkbox+label{
+    color: #0288d1;
+    transition: color .1s ease;
+    /*font-weight: bold;*/
+    font-size: 14px;
+   
 }
 
 .lostPassword{
-    float: right;
-    font-size: 18px;
+    float: inline-end;
+    font-size: 15px;
+    padding-left: 10%;
+
 }
 
 .loginButton{
-    margin-top: 3em !important;
+    margin-bottom: 2em !important;
 }
 
 .loginButton .ui.blue.button{
-    width: 50%;
-    height: 4em;
-    font-size: 20px;
+    width: 20%;
+    height: 3em;
+    font-size: 15px;
 }
